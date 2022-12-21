@@ -201,13 +201,7 @@ class Game {
   }
 
   handleObstacleCollision(index) {
-    if(cars[index-1].collide(obstacle1) || cars[index-1].collide(obstacle2)) {
-
-    if (this.leftKeyActive) {
-      player.positionX += 100;
-    } else {
-      player.positionX -= 100;
-    }
+// complete o código.
 
     if(player.life > 0){
       player.life -= 185 / 4;
